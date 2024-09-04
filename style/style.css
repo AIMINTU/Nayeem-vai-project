@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: poppins;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff9ea;
+    height: 108px;
+    align-items: center;
+    padding: 0 140px;
+}
+
+.logo {
+    width: 140px;
+    height: 40px;
+}
+
+.logo {
+    width: 167px;
+    height: 47px;
+}
+
+nav ul li {
+    list-style: none;
+    color: #6b6963;
+    font-weight: 600px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+.icon {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.search {
+    height: 24px;
+    width: 24px;
+}
+
+.signin {
+    background-color: #ffcb45;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px 20px;
+    font-weight: 600px;
+}
+
+/*hero section style*/
+.hero-container {
+    background-image: url('./images/shapes.png');
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 12px 140px;
+
+}
+
+.left-container {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+
+
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+
+}
+
+/*how it works style*/
+.how-it-works-container {
+    margin-top: 80px;
+    margin-bottom: 100px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.what-we-serve {
+    margin: 0 200px;
+    text-align: center;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.serve-image {
+    width: 180px;
+    height: 180px;
+}
+
+/*MENU ITEMS*/
+.menu-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.img-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+.pm-images{
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px 15px 0 0;
+}
+.border{
+    /*border: 1px solid black;*/
+    border-radius: 15px;
+    /*box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px --1px, rgba(0, 0, 0, 0.06) 0px 2px 4px --1px;*/
+    box-shadow: 2px 2px 5px #e6e6e6;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    align-items: center;
+    height: 700;
+}
+/*MORE MENU PART*/
