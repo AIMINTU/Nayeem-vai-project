@@ -91,7 +91,7 @@ nav ul {
 .what-we-serve {
     margin: 0 200px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 32px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
@@ -115,6 +115,7 @@ nav ul {
 .pm-images{
     background-color: #f1f1f1;
     text-align: center;
+    height: 230px;
     padding: 30px;
     border-radius: 15px 15px 0 0;
 }
@@ -130,5 +131,81 @@ nav ul {
     margin: 0 20px;
     align-items: center;
     height: 700;
+    margin: 0 20px;
 }
-/*MORE MENU PART*/
+
+/*review style*/
+.customer-container{
+
+}
+.down-image{
+    position: relative;
+    top: -38px;
+    display: flex;
+
+}
+.food-image2{
+    position: relative;
+    right: 25px;
+}
+/*review style*/
+
+
+.review-area-container{
+    background-color: #f1f1f1;
+    padding: 40px 30px;
+    border-radius: 15px;
+    width: 400px;
+}
+.review-main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.customer-container{
+    display: flex;
+    
+    align-items: center;
+    margin-left: 100px;
+    overflow-x: hidden;
+
+}
+.review-area{
+    display: flex;
+
+}
+.review-area>div{
+    margin-left: 10px;
+}
+
+.join-our-member{
+    background-image: url('/images/10.png');
+    background-position: center;
+    height: 300PX;
+    width: 2000px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    color: #f1f1f1;
+    position: relative;
+    margin: 0px 130px;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+.background-image{
+    background-image: url('/images/bg-image.png');
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 140px;
+    padding-bottom: 50px;
+}
